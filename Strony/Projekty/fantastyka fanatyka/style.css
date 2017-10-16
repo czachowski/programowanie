@@ -1,0 +1,117 @@
+body
+{
+	/* Background pattern from subtlepatterns.com */
+	background-image: url(img/tlo1.png);
+	background-attachment: fixed;
+	font-family: 'Indie Flower', cursive;
+	color: #ffffff;
+	text-shadow: 2px 2px 2px #ff0000;
+	font-size: 30px;
+}
+
+#container
+{
+	margin-left:auto;
+	margin-right:auto;
+	width: 1400px;
+	height: 900px;
+	text-align: center;
+}
+
+#head
+{
+	width: 1400px;
+	
+}
+
+#logo
+{
+	float: left;
+	border-radius: 10px;
+	width: 630px;
+	height: 263px;
+}
+
+#menuh
+{
+	float:left;
+	margin-left: 460px;
+	width:300px;
+	height: 263px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	padding-top: 20px;
+	line-height: 80px;
+	font-size: 40px;
+	background-image: url(img/tt.png);
+}
+
+#baner1
+{
+	width:1390px;
+	height: 100px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+#menu
+{
+	width:300px;
+	height: 500px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	margin-top: 10px;
+	float:left;
+	background-image: url(img/tt.png);
+}
+
+.tile1
+{
+	width:800px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float:left;
+	font-size: 20px;
+	text-align: justify;
+	word-wrap:break-word;
+	padding: 5px;
+	background-image: url(img/tlotile.png);
+}
+
+#baner2
+{
+	width: 250px;
+	height: 500px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float:left;
+}
+
+ #span 
+  {
+        display:block;
+        text-transform:uppercase;
+        width:18px;
+		margin-left: 121px;
+        font-size:60px;
+        line-height:60px;
+        text-align:center;
+        padding:5px;
+		word-wrap:break-word;
+      }
+
+#footer
+{
+	width: 1300px;
+	margin-left: 50px;
+	height: 50px;
+	text-align: center;
+	
+}
+
