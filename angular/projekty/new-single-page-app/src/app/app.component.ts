@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  items = ["Angular 4", "React", "Underscore"];
+  newItem = "";
+  pushItem = function() {
+  	if(this.newItem != "") {
+  		this.items.push(this.newItem);
+  		this.newItem = "";
+  	}
+  };
+  removeItem = function(index) {
+  	this.items.splice(index, 1);
+  }
 }
