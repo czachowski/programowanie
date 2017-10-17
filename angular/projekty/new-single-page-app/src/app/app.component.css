@@ -48,10 +48,18 @@ ul li {
 	margin-bottom: 5px;
 }
 
-ul li span {
+ul li span.delete {
 	cursor: pointer;
 	position: relative;
 	float: right;
 	margin-right: 10px;
 	text-transform: uppercase;
+}
+
+ul li span.status {
+	cursor: pointer;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	font-size: 12px;
 }
