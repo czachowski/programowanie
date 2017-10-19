@@ -1,0 +1,19 @@
+<form class="container" 
+  #userForm = "ngForm"
+(ngSubmit)="onSubmit(userForm.value)">
+  <input type="text" name="firstname" placeholder="firstname" ngModel>
+  <br>
+  <input type="text" name="lastname" placeholder="lastname" ngModel>
+  <br>
+  <select name="langulages" ngModel>
+    <option value="C++">C++</option>
+    <option value="C#">C#</option>
+    <option value="C">C</option>
+    <option value="Phyton">Phyton</option>
+    <option value="Angular">Angular</option>
+    <option value="PHP">PHP</option>
+  </select>
+  <br>
+  <br>
+  <input type="submit" name="submit">
+</form>

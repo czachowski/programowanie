@@ -8,12 +8,16 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { MembersComponent } from './members/members.component';
 import { ProductsComponent } from './products/products.component';
+import { SortPipe } from './app.sort';
+
+
 
 @NgModule({
   declarations: [
+    SortPipe,
     AppComponent,
     MembersComponent,
-    ProductsComponent
+    ProductsComponent,
   ],
   imports: [
     BrowserModule,

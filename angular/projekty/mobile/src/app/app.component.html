@@ -1,26 +1,4 @@
-<h1>{{ title }}</h1>
+{{ arr | sort:'descending'}}
 
-<p>{{obj.id}}</p>
-<p>{{obj.name}}</p>
-
-<p>{{arr[0]}}</p>
-<p>{{arr[1]}}</p>
-<p>{{arr[2]}}</p>
-
-<ul>
-	<li *ngFor = "let i of arr">{{i}}</li>
-</ul>
-
-<p *ngIf="isTrue; then firstTemp else secondTemp">Hello</p>
-
-<ng-template #firstTemp>This is first Template</ng-template>
-
-<ng-template #secondTemp>This is second Template</ng-template>
-
-<p *ngIf="myName == 'Szymon' && true">True</p>
-
-<a routerLink="/member">Member</a>
-<a routerLink="/product">Product</a>
-
-<router-outlet></router-outlet>
-
+<p>The hero's birthday is {{ ur | date:format }}</p>
+<button (click)="toggleFormat()">Toggle Format</button>

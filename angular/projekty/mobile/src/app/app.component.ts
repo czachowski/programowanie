@@ -6,13 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'My app';
-  obj = {
-  	id: 1,
-  	name: 'Szymon'
+  arr = [3, 7, 1, 9, 6];
+  ur=[1995, 6, 1]
+  toggle = true;
+  get format() {
+  	return this.toggle ? 'shortDate' : 'fullDate';
   }
-
- arr = ['abc', 'def', 'ghi'];
- isTrue = true;
- myName="Szymon";
+  toggleFormat() {
+  	this.toggle = !this.toggle;
+  }
 }
