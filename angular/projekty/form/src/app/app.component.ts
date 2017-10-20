@@ -10,12 +10,22 @@ export class AppComponent {
   form;
   ngOnInit () {
     this.form = new FormGroup ({
-      firstName: new FormControl('Szymon'),
-      lastName: new FormControl(''),
-      language: new FormControl(''),
+      decimal: new FormControl(''),
+      binary: new FormControl(''),
+      octal: new FormControl(''),
+      hexal: new FormControl(''),
     });
   };
-  onSubmit = function(user) {
-  	console.log(user);
-  };
+
+decimalChanged = function (oldValue, newValue) {
+    if (newValue != "") {
+      this.form.patchValue({binary: parseInt(newValue, 10).toString(2)});
+      this.form.patchValue({octal: parseInt(newValue, 10).toString(8)});
+      this.form.patchValue({hexal: parseInt(newValue, 10).toString(16)});
+    } else {
+      this.form.patchValue({binary: ""});
+      this.form.patchValue({octal: ""});
+      this.form.patchValue({hexal: ""});
+    }
+  }
 }

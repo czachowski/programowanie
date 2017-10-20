@@ -1,19 +1,14 @@
 <form class="container" 
-  [formGroup] = "form"
-(ngSubmit)="onSubmit(form.value)">
-  <input type="text" name="firstname" placeholder="firstname" formControlName = "firstName">
-  <br>
-  <input type="text" name="lastname" placeholder="lastname" formControlName = "lastName">
-  <br>
-  <select name="langulages" formControlName = "language">
-    <option value="C++">C++</option>
-    <option value="C#">C#</option>
-    <option value="C">C</option>
-    <option value="Phyton">Phyton</option>
-    <option value="Angular">Angular</option>
-    <option value="PHP">PHP</option>
-  </select>
-  <br>
-  <br>
-  <input type="submit" name="submit">
+  [formGroup] = "form">
+<input type="text" name="decimal"
+(ngModelChange) = "decimalChanged(oldValue, newValue = $event)" 
+placeholder="Decimal" 
+formControlName = "decimal">
+<br>
+<input type="text" placeholder="Binary" formControlName = "binary">
+<br>
+<input type="text" placeholder="Octal" formControlName = "octal">
+<br>
+<input type="text" placeholder="Hexa" formControlName = "hexal">
+<br>
 </form>
