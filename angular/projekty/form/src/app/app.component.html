@@ -5,10 +5,16 @@
 placeholder="Decimal" 
 formControlName = "decimal">
 <br>
-<input type="text" placeholder="Binary" formControlName = "binary">
+<input type="text" name="binary"
+(ngModelChange) = "binaryChanged(oldValue, newValue = $event)" 
+ placeholder="Binary" formControlName = "binary">
 <br>
-<input type="text" placeholder="Octal" formControlName = "octal">
+<input type="text" 
+(ngModelChange) = "octalChanged(oldValue, newValue = $event)"
+placeholder="Octal" formControlName = "octal">
 <br>
-<input type="text" placeholder="Hexa" formControlName = "hexal">
+<input type="text" 
+(ngModelChange) = "hexalChanged(oldValue, newValue = $event)"
+placeholder="Hexa" formControlName = "hexal">
 <br>
 </form>
