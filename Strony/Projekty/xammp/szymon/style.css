@@ -1,0 +1,234 @@
+body
+{
+	/* Background pattern from subtlepatterns.com */
+background-image: url("img/tlomenu.png");
+color: #ffffff;
+font-family: 'Caveat', cursive;
+font-size: 20px;
+}
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rectangle
+{
+	width: 960px;
+	margin: 20px;
+	text-align: center;
+}
+
+.square
+{
+	width: 300px;
+	height:460px;
+	float: left;
+	text-align: center;
+
+}
+
+.okno
+{
+	width: 700px;
+	float: left;
+	text-align: left;
+
+}
+	
+#logo
+{
+	float: left;
+	font-family: 'Pacifico', cursive;
+	font-size: 60px;
+	width: 600px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+#zegar
+{
+	float: left;
+	font-family: 'Pacifico', cursive;
+	font-size: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.tile1
+{
+	
+	margin: 12px;
+	width: 280px;
+	height: 100px;
+	background: url("img/bg.png");
+}
+
+.tile1:hover
+{
+	background-color: #333333;
+}
+
+
+
+
+.fb
+
+{
+	margin:0 auto;
+	width: 100px;
+	height: 80px;
+	text-align: center;
+
+}
+
+
+.icon-facebook-squared:hover
+{
+	color: #2446a1;
+}
+
+
+.tile5
+{
+	background: url("img/bg.png");
+	margin:10px;
+	width: 650px;
+	text-align: left;
+	padding: 10px;	
+}
+
+
+
+
+
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+a.tilelink:hover
+{
+	color:#E47833
+}
+
+
+
+a.tilelink2
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+/*------------------------------kontakt-------------------------------------------------------------*/
+
+#formularz 
+{
+        width:260px; /* ustawiamy szerokość formularza */
+        background-color: none; /* dodajemy kolor tła naszemu formularzowi */
+        border:2px solid #ccc; /* dodajemy obramowanie o szerokości 2px */
+        border-radius:10px; /* zaokrąglamy tło naszego formularza */
+		padding:20px; /* dodajemy margines wewnątrz naszego formularza */
+        margin-top:10px; /* dodajemy margines górny naszego formularza */
+}
+
+#formularz label {
+    display:block;/* ustawiamy by label rozpoczynał się od nowej linii*/
+	margin-bottom: 5px;
+    font-weight:bold; /* pogrubiamy czcionkę */
+    text-transform: uppercase; /* zamieniamy wszystkie litery na duże */
+    font-size:15px; /* ustawiamy wielkość czcionki */
+    color:#fff; /* ustawiamy kolor czcionki */
+}
+
+#formularz textarea,
+#formularz input {
+	padding:5px; /* dodajemy margines wewnątrz naszego pola */
+	border-radius:3px; /* dodajemy zaokraglone rogi */
+	border:1px solid #ccc; /* dodajemy obramowanie */
+	margin-bottom:5px; /* dodajemy margines dolny */
+	width:245px; /* ustalamy szerokość */
+}
+
+#formularz input#submit {
+	width:255px; /* ustalamy szerokość */
+	cursor:pointer; /* zmieniamy kursor */
+	margin-bottom:0px;/* resetujemy margines dolny */
+}
+
+#formularz p.copy {
+	color:#555555; /* ustawiamy kolor czcionki */
+	margin-bottom:0px; /* resetujemy margines dolny */
+	font-size:12px; /* ustawiamy rozmiar czcionki */
+	text-align: center; /* wyśrodkowywujemy tekst */
+}
+
+#formularz p.copy a {
+	color:#555555;/* ustawiamy kolor czcionki */ 
+	text-decoration: none; /* usuwamy podkreślenie linku */
+	font-weight:bold; /* pogrubiamy czcionkę */
+}  
+
+#formularz img
+{
+	float:left;
+	width: 50px;
+	height: 50px;
+}
+
+#formularz1 
+{
+        width:260px; /* ustawiamy szerokość formularza */
+		height:237px;
+        background-color: none; /* dodajemy kolor tła naszemu formularzowi */
+        border:2px solid #ccc; /* dodajemy obramowanie o szerokości 2px */
+        border-radius:10px; /* zaokrąglamy tło naszego formularza */
+		padding:20px; /* dodajemy margines wewnątrz naszego formularza */
+        margin-top:10px; /* dodajemy margines górny naszego formularza */
+}
+#formularz1 p
+{
+	margin-top:20px;
+	text-align: center;
+}
+
+.kontakt
+{
+	float:left;
+	font-size: 30px;
+	margin-left:20px;
+}
+
+/*------------------------------------------------------------oferta------------------------------------------------------------------------------*/
+
+.oferta
+{
+	    width:640px; /* ustawiamy szerokość formularza */
+		height: 200px;
+        background-color: none; /* dodajemy kolor tła naszemu formularzowi */
+        border:2px solid #ccc; /* dodajemy obramowanie o szerokości 2px */
+        border-radius:10px; /* zaokrąglamy tło naszego formularza */
+		padding:0px; /* dodajemy margines wewnątrz naszego formularza */
+        margin-top:10px; /* dodajemy margines górny naszego formularza */
+		vertical-align: top;
+}
+
+.oferta label
+{
+	display:block;
+	font-size:30px;
+	text-decoration: underline;
+}
